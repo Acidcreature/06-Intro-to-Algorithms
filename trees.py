@@ -77,12 +77,14 @@ class BinaryTree:
 
 bt = BinaryTree("D")
 bt.root.left = TreeNode("B")
-bt.root.right = TreeNode("F")
 bt.root.left.left = TreeNode("A")
 bt.root.left.right = TreeNode("C")
+bt.root.right = TreeNode("F")
 bt.root.right.left = TreeNode("E")
 bt.root.right.right = TreeNode("G")
 
 print(bt.print_tree("preorder"))
 print(bt.print_tree("inorder"))
 print(bt.print_tree("postorder"))
+
+#DBACFEG
